@@ -1,0 +1,196 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <NoWarn>1701;1702</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <FxCopLogFile>obj\Release\CodeAnalysisLog.xml</FxCopLogFile>
+    <FxCopRuleAssemblies>DesignRules.dll;GlobalizationRules.dll;InteroperabilityRules.dll;MaintainabilityRules.dll;NamingRules.dll;PerformanceRules.dll;ReliabilityRules.dll;SecurityRules.dll;UsageRules.dll</FxCopRuleAssemblies>
+    <FxCopInputAssembly>bin\Release\GPSOrbitGetter.exe</FxCopInputAssembly>
+    <FxCopUseTypeNameInSuppression>true</FxCopUseTypeNameInSuppression>
+    <FxCopModuleSuppressionsFile>ModuleSuppressions.cs</FxCopModuleSuppressionsFile>
+    <LangVersion>
+    </LangVersion>
+    <ErrorReport>
+    </ErrorReport>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <NoStdLib>false</NoStdLib>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <FxCopRules>
+    </FxCopRules>
+    <FxCopSpellCheckLanguages>
+    </FxCopSpellCheckLanguages>
+    <RunFxCop>false</RunFxCop>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC489EB9-2A22-45FC-A7FA-AE673E300EC3}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>GPSOrbitGetter</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GPSOrbitGetter</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\GPSOrbitGetter.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>bin\Debug\GPSOrbitGetter.XML</DocumentationFile>
+    <NoWarn>1701;1702</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <FxCopLogFile>obj\Debug\CodeAnalysisLog.xml</FxCopLogFile>
+    <FxCopRuleAssemblies>DesignRules.dll;GlobalizationRules.dll;InteroperabilityRules.dll;MaintainabilityRules.dll;NamingRules.dll;PerformanceRules.dll;ReliabilityRules.dll;SecurityRules.dll;UsageRules.dll</FxCopRuleAssemblies>
+    <FxCopInputAssembly>bin\Debug\GPSOrbitGetter.exe</FxCopInputAssembly>
+    <FxCopUseTypeNameInSuppression>true</FxCopUseTypeNameInSuppression>
+    <FxCopModuleSuppressionsFile>ModuleSuppressions.cs</FxCopModuleSuppressionsFile>
+    <LangVersion>
+    </LangVersion>
+    <ErrorReport>
+    </ErrorReport>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <FileAlignment>4096</FileAlignment>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <FxCopRules>
+    </FxCopRules>
+    <FxCopSpellCheckLanguages>
+    </FxCopSpellCheckLanguages>
+    <RunFxCop>false</RunFxCop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Constellation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Constellation2.cs" />
+    <Compile Include="HttpRequestParser.cs" />
+    <Compile Include="OrbitGetter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Point.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Satellite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Satellite2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
