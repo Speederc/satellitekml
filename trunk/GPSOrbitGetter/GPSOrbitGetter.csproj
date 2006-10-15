@@ -186,6 +186,12 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\orbitTools\OrbitTools.csproj">
+      <Project>{5D6C4885-0B79-4795-B755-6604028B33D8}</Project>
+      <Name>OrbitTools</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
